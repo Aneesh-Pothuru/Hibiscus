@@ -27,7 +27,10 @@ const AppNavBar = props => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" nabar>
               <NavItem>
-                <NavLink href="https://github.com/Aneesh-Pothuru/Hibiscus">
+                <NavLink
+                  secondary
+                  href="https://github.com/Aneesh-Pothuru/Hibiscus"
+                >
                   GitHub
                 </NavLink>
               </NavItem>
